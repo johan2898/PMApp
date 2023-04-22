@@ -7,6 +7,7 @@ from kivy.lang import Builder
 from kivy.uix.screenmanager import ScreenManager, Screen
 from kivymd.app import MDApp
 from kivymd.uix.pickers import MDDatePicker
+from kivymd.uix.pickers import MDTimePicker
 
 
 class WindowManager(ScreenManager):
