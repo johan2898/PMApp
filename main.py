@@ -21,8 +21,11 @@ class AddTask(Screen):
 class Tasks(Screen):
 
     def date_picker(self):
+        time_dialog = MDTimePicker()
+        time_dialog.open()
         date_dialog = MDDatePicker()
         date_dialog.open()
+
     pass
 
 
